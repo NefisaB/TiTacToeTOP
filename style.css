@@ -48,3 +48,7 @@ main {
 .hidden {
     display: none;
 }
+
+button:disabled {
+    background-color: burlywood;
+}
