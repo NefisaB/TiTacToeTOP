@@ -19,6 +19,21 @@ main {
     text-align: center;
 }
 
+.player-names {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 10px;
+}
+
+.player-names button {
+    width: 100px;
+}
+
+.game-area {
+    display: flex;
+}
+
 .gameboard {
     display: grid;
     grid-template-columns: repeat(3, 150px);
@@ -28,4 +43,8 @@ main {
 .game-field {
     background-color: antiquewhite;
     border: 2px solid rgb(21, 73, 102);
+}
+
+.hidden {
+    display: none;
 }

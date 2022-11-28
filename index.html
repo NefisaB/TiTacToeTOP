@@ -14,19 +14,39 @@
     <main>
 
         <h1>TIC TAC TOE GAME</h1>
+        <p class="heading-winner hidden"></p>
 
-        <div class="gameboard">
-            <button class="game-field"></button>
-            <button class="game-field"></button>
-            <button class="game-field"></button>
-            <button class="game-field"></button>
-            <button class="game-field"></button>
-            <button class="game-field"></button>
-            <button class="game-field"></button>
-            <button class="game-field"></button>
-            <button class="game-field"></button>
+        <div class="player-names">
+            <label for="player1">Enter first player's name:</label>
+            <input type="text" name="player1" id="player1">
+            <label for="player2">Enter second player's name:</label>
+            <input type="text" name="player2" id="player2">
+            <button class="names-btn">GO</button>
         </div>
 
+        <div class="game-area">
+
+            <div class="x-player">
+                <p></p>
+            </div>
+
+            <div class="gameboard">
+                <button class="game-field" id="0"></button>
+                <button class="game-field" id="1"></button>
+                <button class="game-field" id="2"></button>
+                <button class="game-field" id="3"></button>
+                <button class="game-field" id="4"></button>
+                <button class="game-field" id="5"></button>
+                <button class="game-field" id="6"></button>
+                <button class="game-field" id="7"></button>
+                <button class="game-field" id="8"></button>
+            </div>
+
+            <div class="o-player">
+                <p></p>
+            </div>
+
+        </div>
     </main>
 
     <script src="app.js"></script>
